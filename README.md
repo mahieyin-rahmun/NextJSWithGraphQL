@@ -1,3 +1,16 @@
+# Next.js + GraphQL boilerplate in TypeScript
+
+Uses:
+- Next.js
+- GraphQL
+- apollo-server-micro
+- type-graphql
+- typeorm
+
+# Note about this repository:
+
+This is the code for the medium.com article which can be found [here](https://mahieyin-rahmun.medium.com/how-to-setup-a-graphql-server-in-next-js-with-api-endpoints-27aa4001c20b?postPublishedType=initial), where I show how you can setup a basic Next.js application with GraphQL in a serverless setting.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
