@@ -3,8 +3,6 @@ import { ApolloServer } from "apollo-server-micro";
 import type { PageConfig } from "next";
 import { buildSchema } from "type-graphql";
 import { HelloWorldResolver } from "../../../lib/serverless/graphql/resolvers/HelloWorldResolver";
-import { Connection, createConnection, getConnection } from "typeorm";
-import { User } from "../../../lib/serverless/entities/User";
 import { UserResolver } from "../../../lib/serverless/graphql/resolvers/UserResolver";
 import { prepareConnection } from "../../../lib/utils/db";
 
