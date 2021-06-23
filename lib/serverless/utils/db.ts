@@ -1,5 +1,5 @@
 import { createConnection, getConnection } from "typeorm";
-import { User } from "../serverless/entities/User";
+import { User } from "../entities/User";
 
 let connectionReadyPromise: Promise<void> | null = null;
 

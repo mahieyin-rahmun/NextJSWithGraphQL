@@ -4,7 +4,7 @@ import type { PageConfig } from "next";
 import { buildSchema } from "type-graphql";
 import { HelloWorldResolver } from "../../../lib/serverless/graphql/resolvers/HelloWorldResolver";
 import { UserResolver } from "../../../lib/serverless/graphql/resolvers/UserResolver";
-import { prepareConnection } from "../../../lib/utils/db";
+import { prepareConnection } from "../../../lib/serverless/utils/db";
 
 // disable next js from handling this route
 export const config: PageConfig = {
